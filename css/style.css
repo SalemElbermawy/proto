@@ -86,6 +86,13 @@ header{
     left: 0;
     right: 0;
     height: 100px;
+    transition: 0.3s;
+    z-index: 1000;
+}
+
+header.active{
+    background-color: var(--black_color);
+    border-bottom: 1px solid #56565697; 
 }
 
 header nav{
@@ -217,6 +224,14 @@ header nav .icons a:hover{
 
 .hero{
     padding-top: 100px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    padding: 80px 0;
 }
 
 .hero .container{
@@ -276,6 +291,103 @@ header nav .icons a:hover{
     z-index: -1;
 }
 
+
+/* about */
+
 .about{
     /* background-color: wheat; */
 }
+
+.about .container{
+    display: flex;
+    background: var(--black_color);
+    justify-content: space-between;
+    border-radius: 40px;
+    padding: 50px;
+    align-items: center;
+}
+
+.about .div_text{
+    width: 50%;
+}
+
+.about .div_text h5{
+    color: var(--p_color);
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.about .div_text h2{
+    font-size: 45px;
+    
+    margin: 25px 0 5px;
+}
+
+.about .div_text h4{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.about .div_text p{
+    line-height: 1.8;
+
+}
+
+.about .div_text ul{
+    display: flex;
+    color: var(--white_color);
+    margin: 30px 0 30px;
+    flex-wrap: wrap;
+}
+
+.about .div_text ul li{
+    width: 45%;
+    font-weight: bold;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.about .div_text ul li i{
+    color: var(--main_color);
+}
+.services .boxs{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.services .boxs .box{
+    width: 30%;
+    text-align: center;
+    padding: 50px 20px;
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+}
+
+.services .boxs .box i{
+    color: var(--main_color);
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+
+.services .boxs .box h3{
+    font-size: 25px;
+    margin-bottom: 20px;
+
+}
+
+.services .boxs .box p{
+    margin-bottom: 40px;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.services .boxs .box:hover{
+    border-color: var(--main_color);
+}
+
+.services .boxs .box:hover i{
+    scale: 1.3;
+}
+
