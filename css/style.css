@@ -292,7 +292,9 @@ section{
     z-index: -1;
 }
 
-
+.din_img{
+    width: 40%;
+}
 /* about */
 
 .about{
@@ -471,7 +473,7 @@ section{
 
 .contact .social_contact {
 
-    width: 30%;
+    width: 40%;
 }
 
 .contact .social_contact h2{
