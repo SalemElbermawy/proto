@@ -1,6 +1,6 @@
 from langchain_community.document_loaders import PyPDFLoader
 from langchain_openai import OpenAIEmbeddings,ChatOpenAI
-
+import os
 
 
 
@@ -41,16 +41,19 @@ chunks=chunker.split_documents(all_pages)
 
 from langchain_community.vectorstores import Chroma
 
-# embedding_data=Chroma.from_documents(
-#     chunks,
-#     embedding=embedding_model,
-#     persist_directory="./db"
-# )
+persist_db_directory = "./db"
 
-embedding_data=Chroma(
-    embedding_function=embedding_model,
-    persist_directory="./db"
-)
+if os.path.exists(persist_db_directory) and os.listdir(persist_db_directory):
+    embedding_data = Chroma(
+        embedding_function=embedding_model,
+        persist_directory=persist_db_directory
+    )
+else:
+    embedding_data = Chroma.from_documents(
+        chunks,
+        embedding=embedding_model,
+        persist_directory=persist_db_directory
+    )
 
 # Large Language Model
 
