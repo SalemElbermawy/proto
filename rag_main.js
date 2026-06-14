@@ -2,10 +2,9 @@ Url='http://127.0.0.1:8000/model'
 
 async function sendMessage() {
 
-    const=inputField=document.getElementById("user-input");
+    const inputField=document.getElementById("user-input");
     const chatBox = document.getElementById("chat-box");
-    const messageText = inputField.ariaValueMax.trim();
-
+    const messageText = inputField.value.trim();
     if (messageText === "") return;
 
     const userDiv=document.createElement("div");
@@ -18,7 +17,7 @@ async function sendMessage() {
 
 
     try{
-        const response = fetch(Url,{
+        const response = await fetch(Url,{
             method:"POST",
             headers:{
                 "Content-Type" :"application/json"
@@ -26,7 +25,7 @@ async function sendMessage() {
             body:JSON.stringify({prompt:messageText})
         });
 
-        const data = (await response).json();
+        const data = await response.json();
 
         const botDiv = document.createElement("div");
         botDiv.className="message bot-msg";

@@ -5,20 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Know About Me</title>
     <link rel="stylesheet" href="rag_style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 </head>
 <body>
+
+    <header>
+    <nav class="container" >
+        <div class="links">
+            <a class="active" href="index.html">Home</a>
+            <a class="active" href="rag.html">Chat-Bot</a>
+        </div> 
+
+        <div class="icons">
+            <a target="_blank" href="https://www.facebook.com/share/1EVjBvyivk/"><i class="fa-brands fa-facebook"></i></a>
+            <a target="_blank" href="https://www.instagram.com/salemahmedelbermawy?igsh=eWJmbGMwZWZhbjdm"><i class="fa-brands fa-instagram"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/in/salem-ahmed-salem-2a133436a?utm_source=share_via&utm_content=profile&utm_medium=member_android"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+
+    </nav>
+ </header>
 
     <div class="chat-container">
         <div class="chat-box" id="chat-box">
             <div class="message bot-msg">
-                Iam Assistant Of Salem Ahmed Ask Me Anything About Him And I Will Tell You
+                I am Assistant Of Salem Ahmed. Ask Me Anything About Him And I Will Tell You.
             </div>
-
-            <div class="input-area">
-                <input type="text" id="user-input" placeholder="write your message here" onkeypress="handleKeyPress(event)">
-                <button id="send-btn" onclick="sendMessage()">Send</button>
-            </div>
-
+        </div> <div class="input-area">
+            <input type="text" id="user-input" placeholder="write your message here" onkeypress="handleKeyPress(event)">
+            <button id="send-btn" onclick="sendMessage()">Send</button>
         </div>
     </div>
 

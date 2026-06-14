@@ -8,16 +8,23 @@ body{
     height: 100vh;
     margin: 0;
 }
+/* 
+.hh{
+    background-color: #181818;
+    margin-bottom:10px ;
+} */
 
 .chat-container {
-    width: 400px;
+    width: 90%;
     max-width: 90%;
-    height: 500px;
+    height: 80%;
     background-color: rgba(79, 77, 77, 0.46);
     border-radius:12px ;
     display: flex;
     flex-direction: column;
     overflow: hidden;
+    margin-top: 50px; 
+    /* margin-bottom: 30px; */
 }
 
 .chat-box{
@@ -27,6 +34,7 @@ body{
     display: flex;
     flex-direction: column;
     gap: 10px;
+    
 }
 
 .messae{
@@ -36,19 +44,26 @@ body{
     font-size: 14px;
     line-height: 1.4;
     word-wrap: break-word;
-}
-
-.user-msg{
-    background-color: rgb(117, 156, 235);
-    color: white;
-    align-self: flex-end;
     
 }
 
+.user-msg{
+    /* background-color: rgb(117, 156, 235); */
+    color: white;
+    align-self: flex-end;
+    padding: 5px 10px;
+    background-color: rgb(106, 26, 102);
+    border-radius: 5px;
+}
+
 .bot-msg{
-    background-color: rgba(128, 128, 128, 0.381);
-    color: wheat;
+    /* background-color: rgba(128, 128, 128, 0.381); */
+    color: white;
     align-self: flex-start;
+    background-color: rgba(106, 26, 102, 0.456);
+    padding: 5px;
+    border-radius: 6px;
+    margin: 5px 0;
 
 }
 

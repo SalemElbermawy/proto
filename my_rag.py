@@ -20,7 +20,7 @@ for pdf in my_info:
 # print(meta["producer"])
 
 # api and base url to connect the LLMs
-
+API_KEY=""
 BASE_URL = "https://ai.hackclub.com/proxy/v1"
 
 # configure the embedding model
