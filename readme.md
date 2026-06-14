@@ -1,52 +1,27 @@
-# This is templete of protfolio from Noxfolio
-
-- This is simple project use the basics of front end (HTML , CSS , Js)
-
-- Main Page is introduction for me 
-
-![alt text](image.png)
-
-# Part Of Social Media Links 
-
-- you can click on any Icon to reach me
-
-![alt text](image-7.png)
-
-- about and my skills and passion (About section)
-![alt text](image-1.png)
-
-# My Cv
-
-- you can get my CV from this button
-
-![alt text](image-8.png)
-
-- here can see the services which I can produce them and there are examples and projects as example for each service
-![alt text](image-2.png)
-
-# See My Real Project
-
-- When you clicked on the Read More will get you to Real projects
-
-![alt text](image-9.png)
-
-
-
-
-
-# Here the section of exploring my real projects
-
-- When you clicked on any button in the section you will see DEMOs of projects
-
-
-![alt text](image-3.png)
-![alt text](image-4.png)
-![alt text](image-5.png)
-
-# Section of cntact 
-
+# My Protoflio 
+### Content :
+- This website has a chat bot know everything about me 
+- I have used RAG system in it to support my cv to it to take information from it to each response as shown in the following figures
 ---
+![alt text](image-10.png)
 
-- There are many different ways to contact me
 
-![alt text](image-6.png)
+- there is strictly system if he doesnot know the answer it says I donot know
+
+![alt text](image-11.png)
+
+- and if you ask him about how can you communication with salem it will tell you
+
+![alt text](image-12.png)
+- and links of linked in and others in the header 
+
+![alt text](image-13.png)
+
+![alt text](image-14.png)
+
+## Home Page 
+
+### Is a templete of Protoflio and if you say what is good in protoflio , I want to say I have added chat bot as an addotional part
+
+![alt text](image-15.png)
+![alt text](image-16.png)
