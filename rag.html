@@ -4,8 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Know About Me</title>
+    <link rel="stylesheet" href="rag_style.css">
 </head>
 <body>
+
+    <div class="chat-container">
+        <div class="chat-box" id="chat-box">
+            <div class="message bot-msg">
+                Iam Assistant Of Salem Ahmed Ask Me Anything About Him And I Will Tell You
+            </div>
+
+            <div class="input-area">
+                <input type="text" id="user-input" placeholder="write your message here" onkeypress="handleKeyPress(event)">
+                <button id="send-btn" onclick="sendMessage()">Send</button>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="rag_main.js"></script>
     
 </body>
 </html>
