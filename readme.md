@@ -1,5 +1,41 @@
 # My Protoflio 
-### Content :
+
+
+## Features
+
+- Personal portfolio website with a fully integrated AI chatbot
+- The chatbot uses a RAG system connected to my CV to answer questions about me
+- If the chatbot does not know the answer, it says so instead of making things up
+- The chatbot can tell visitors how to contact me and shares my social media links
+- Clean and responsive home page
+
+## Tech Stack
+
+- Front-End: HTML, CSS, JavaScript
+- AI Chatbot: RAG system connected to CV
+
+## Demo
+
+- https://salemelbermawy.github.io/proto/
+
+
+## Motivation
+
+- Build a portfolio that stands out with an AI chatbot
+- Let visitors learn about me by just asking questions
+- Practice integrating AI into a real front-end project
+
+## Installation
+
+- No installation needed, just visit the live demo link
+- To run locally, clone the repo and open the HTML file in your browser
+
+
+
+
+
+
+### About
 - This website has a chat bot know everything about me 
 - I have used RAG system in it to support my cv to it to take information from it to each response as shown in the following figures
 ---
@@ -25,3 +61,9 @@
 
 ![alt text](image-15.png)
 ![alt text](image-16.png)
+
+---
+
+## Copyright
+
+Made with love by Salem Elbermawy
